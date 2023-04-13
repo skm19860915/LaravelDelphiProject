@@ -1,0 +1,34 @@
+.side-nav .collapsible-body li.active a, .side-nav.fixed .collapsible-body li.active a{
+    color:unset;
+}
+.maintain-item{
+    font-size:20px;
+    color:rgba(0,0,0,.6);
+}
+#order_clients thead{
+    display: none;
+}
+#order_transporters thead{
+    display: none;
+}
+#confirmationTable thead{
+    visibility: collapse;
+}
+table#order_clients tbody tr.selected{
+    background-color: #B0BED9 !important;
+}
+table#order_transporters tbody tr.selected{
+    background-color: #B0BED9 !important;
+}
+table#confirmationTable tbody tr.selected{
+    background-color: #B0BED9 !important;
+}
+#load_confirmation_table thead{
+    display: none;
+}
+table#loadAddrTable tbody tr.selected{
+    background-color: #B0BED9 !important;
+}
+table#offloadAddrTable tbody tr.selected{
+    background-color: #B0BED9 !important;
+}
